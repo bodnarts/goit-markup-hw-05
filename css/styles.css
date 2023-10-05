@@ -537,16 +537,13 @@ p {
   padding: 40px;
 }
 
-.modal-button {
-  background-color: transparent;
-  border: none;
-  top: 24px;
-  right: 24px;
-  fill: transparent;
-  stroke: #111111;
-  width: 28px;
-  height: 28px;
-  padding: 0;
+.close-button {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 
 .modal-title {
@@ -560,8 +557,14 @@ p {
   height: 68px;
   border-radius: 13px;
   border: ;
-  margin-bottom: 18px;
+  background-color: transparent;
+  margin-bottom: 24px;
   padding-left: 24px;
+  font-size: 16px;
+}
+
+.modal-input::placeholder{
+
 }
 
 .modal-form-button {
@@ -573,4 +576,8 @@ p {
   border-radius: 100px;
   background-color: #fd9222;
   border: none;
+}
+
+.modal-label {
+  
 }
