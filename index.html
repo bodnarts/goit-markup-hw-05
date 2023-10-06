@@ -402,23 +402,32 @@
     <div class="backdrop">
         <div class="modal">
             <button type="button" class="close-button">
-                <svg class="icon icon-close-black-18dp-2-1">
+                <svg class="icon-close-button">
                     <use xlink:href="#icon-close-black-18dp-2-1"></use>
                 </svg>
             </button>
             <p class="modal-title"></p>
             <form class="modal-form">
                 <div class="modal-field">
-                  <label for="user-name" class="modal-label">Name</label>
-                    <input type="text" name="user-name" class="modal-input" placeholder="Enter name">
-                </div>
-                <div class="modal-field"></div>
-                  <label for="user-phone" class="modal-label">Phone number</label>
-                    <input type="text" name="user-phone" class="modal-input" placeholder="Enter phone">
+                    <label for="user-name" class="modal-label">Name</label>
+                    <div>
+                      <input type="text" name="user-name" class="modal-input" placeholder="Enter name">
+                      <svg class="modal-label-icon"></svg>
+                    </div>
                 </div>
                 <div class="modal-field">
-                  <label for="user-email" class="modal-label">Email</label>
-                    <input type="text" name="user-email" class="modal-input" placeholder="Enter email">
+                    <label for="user-phone" class="modal-label">Phone</label>
+                    <div>
+                      <input type="text" name="user-phone" class="modal-input" placeholder="Enter phone">
+                      <svg class="modal-label-icon"></svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label for="user-email" class="modal-label">Email</label>
+                    <div>
+                      <input type="text" name="user-email" class="modal-input" placeholder="Enter email">
+                      <svg class="modal-label-icon"></svg>
+                    </div>
                 </div>
                 <button type="submit" class="modal-form-button">Send</button>
             </form>
