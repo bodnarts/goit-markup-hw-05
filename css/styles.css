@@ -603,6 +603,14 @@ p {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.modal-input:focus {
+  border-color: #4D5AE5;
+}
+
+.modal-input:focus .modal-label-icon {
+  fill: #4D5AE5;
+}
+
 .modal-label-icon {
   position: absolute;
   left: 16px;
