@@ -661,6 +661,10 @@ p {
   fill: transparent;
 }
 
+.checkbox-field-link {
+  color: #4d5ae5;
+}
+
 .modal-form-button {
   display: block;
   min-width: 169px;
