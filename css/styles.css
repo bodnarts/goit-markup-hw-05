@@ -657,6 +657,12 @@ p {
   margin-bottom: 24px;
 }
 
+.input-checkbox:checked+.modal-label .checkbox-field-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
+
 .checkbox-field-span {
   width: 16px;
   height: 16px;
@@ -672,6 +678,7 @@ p {
 }
 
 .checkbox-field-link {
+  margin-bottom: 0;
   color: #4d5ae5;
 }
 
